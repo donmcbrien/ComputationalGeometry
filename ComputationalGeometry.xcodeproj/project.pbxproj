@@ -21,6 +21,7 @@
 		13D46E332656DEAA00B034DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D46E352656DEAA00B034DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D46E362656DEAA00B034DB /* ComputationalGeometry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComputationalGeometry.entitlements; sourceTree = "<group>"; };
+		13D46E3C2656DED600B034DB /* RedBlackTree */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RedBlackTree; path = ../RedBlackTree; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 		13D46E202656DEA900B034DB = {
 			isa = PBXGroup;
 			children = (
+				13D46E3C2656DED600B034DB /* RedBlackTree */,
 				13D46E2B2656DEA900B034DB /* ComputationalGeometry */,
 				13D46E2A2656DEA900B034DB /* Products */,
 			);
