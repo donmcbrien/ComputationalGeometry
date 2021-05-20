@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RedBlackTree
 
 extension BinaryFloatingPoint {
    public func rounded(toPlaces places: Int) -> Self {

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RedBlackTree
 
 enum Event {
    case upper(LineSegment)

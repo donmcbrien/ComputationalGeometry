@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RedBlackTree
 
 class LineIntersectionsModel {
    var queue = RedBlackTree<Event, Vertex>()

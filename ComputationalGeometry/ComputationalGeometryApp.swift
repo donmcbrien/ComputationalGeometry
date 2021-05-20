@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import RedBlackTree
 
 @main
 struct ComputationalGeometryApp: App {

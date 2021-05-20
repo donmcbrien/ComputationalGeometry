@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,7 @@
 		13D46E5C2656E12C00B034DB /* LineIntersectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E562656E12C00B034DB /* LineIntersectionsModel.swift */; };
 		13D46E5D2656E12C00B034DB /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E572656E12C00B034DB /* Vertex.swift */; };
 		13D46E5E2656E12C00B034DB /* LineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E582656E12C00B034DB /* LineSegment.swift */; };
+		13D46E612656E1EB00B034DB /* RedBlackTree in Frameworks */ = {isa = PBXBuildFile; productRef = 13D46E602656E1EB00B034DB /* RedBlackTree */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D46E612656E1EB00B034DB /* RedBlackTree in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 				13D46E3C2656DED600B034DB /* RedBlackTree */,
 				13D46E2B2656DEA900B034DB /* ComputationalGeometry */,
 				13D46E2A2656DEA900B034DB /* Products */,
+				13D46E5F2656E1EB00B034DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +153,13 @@
 			path = LineIntersections;
 			sourceTree = "<group>";
 		};
+		13D46E5F2656E1EB00B034DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +176,9 @@
 			dependencies = (
 			);
 			name = ComputationalGeometry;
+			packageProductDependencies = (
+				13D46E602656E1EB00B034DB /* RedBlackTree */,
+			);
 			productName = ComputationalGeometry;
 			productReference = 13D46E292656DEA900B034DB /* ComputationalGeometry.app */;
 			productType = "com.apple.product-type.application";
@@ -427,6 +440,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13D46E602656E1EB00B034DB /* RedBlackTree */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RedBlackTree;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 13D46E212656DEA900B034DB /* Project object */;
 }
