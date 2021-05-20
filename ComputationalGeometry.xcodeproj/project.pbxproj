@@ -11,6 +11,21 @@
 		13D46E2F2656DEA900B034DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E2E2656DEA900B034DB /* ContentView.swift */; };
 		13D46E312656DEAA00B034DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D46E302656DEAA00B034DB /* Assets.xcassets */; };
 		13D46E342656DEAA00B034DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D46E332656DEAA00B034DB /* Preview Assets.xcassets */; };
+		13D46E402656E09300B034DB /* CartesianGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E3E2656E09200B034DB /* CartesianGridView.swift */; };
+		13D46E412656E09300B034DB /* SweeplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E3F2656E09200B034DB /* SweeplineView.swift */; };
+		13D46E462656E0B500B034DB /* ConvexHullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E432656E0B500B034DB /* ConvexHullView.swift */; };
+		13D46E472656E0B500B034DB /* ConvexHullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E442656E0B500B034DB /* ConvexHullViewController.swift */; };
+		13D46E482656E0B500B034DB /* ConvexHullModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E452656E0B500B034DB /* ConvexHullModel.swift */; };
+		13D46E4E2656E0E800B034DB /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E492656E0E800B034DB /* Face.swift */; };
+		13D46E4F2656E0E800B034DB /* HalfEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E4A2656E0E800B034DB /* HalfEdge.swift */; };
+		13D46E502656E0E800B034DB /* DCEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E4C2656E0E800B034DB /* DCEL.swift */; };
+		13D46E512656E0E800B034DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E4D2656E0E800B034DB /* Extensions.swift */; };
+		13D46E592656E12C00B034DB /* LineIntersectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E532656E12C00B034DB /* LineIntersectionsView.swift */; };
+		13D46E5A2656E12C00B034DB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E542656E12C00B034DB /* Event.swift */; };
+		13D46E5B2656E12C00B034DB /* LineIntersectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E552656E12C00B034DB /* LineIntersectionsViewController.swift */; };
+		13D46E5C2656E12C00B034DB /* LineIntersectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E562656E12C00B034DB /* LineIntersectionsModel.swift */; };
+		13D46E5D2656E12C00B034DB /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E572656E12C00B034DB /* Vertex.swift */; };
+		13D46E5E2656E12C00B034DB /* LineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D46E582656E12C00B034DB /* LineSegment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		13D46E352656DEAA00B034DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D46E362656DEAA00B034DB /* ComputationalGeometry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComputationalGeometry.entitlements; sourceTree = "<group>"; };
 		13D46E3C2656DED600B034DB /* RedBlackTree */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RedBlackTree; path = ../RedBlackTree; sourceTree = "<group>"; };
+		13D46E3E2656E09200B034DB /* CartesianGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartesianGridView.swift; sourceTree = "<group>"; };
+		13D46E3F2656E09200B034DB /* SweeplineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweeplineView.swift; sourceTree = "<group>"; };
+		13D46E432656E0B500B034DB /* ConvexHullView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvexHullView.swift; sourceTree = "<group>"; };
+		13D46E442656E0B500B034DB /* ConvexHullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvexHullViewController.swift; sourceTree = "<group>"; };
+		13D46E452656E0B500B034DB /* ConvexHullModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvexHullModel.swift; sourceTree = "<group>"; };
+		13D46E492656E0E800B034DB /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		13D46E4A2656E0E800B034DB /* HalfEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfEdge.swift; sourceTree = "<group>"; };
+		13D46E4C2656E0E800B034DB /* DCEL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCEL.swift; sourceTree = "<group>"; };
+		13D46E4D2656E0E800B034DB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13D46E532656E12C00B034DB /* LineIntersectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineIntersectionsView.swift; sourceTree = "<group>"; };
+		13D46E542656E12C00B034DB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		13D46E552656E12C00B034DB /* LineIntersectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineIntersectionsViewController.swift; sourceTree = "<group>"; };
+		13D46E562656E12C00B034DB /* LineIntersectionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineIntersectionsModel.swift; sourceTree = "<group>"; };
+		13D46E572656E12C00B034DB /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		13D46E582656E12C00B034DB /* LineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +85,15 @@
 		13D46E2B2656DEA900B034DB /* ComputationalGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				13D46E522656E12C00B034DB /* LineIntersections */,
+				13D46E582656E12C00B034DB /* LineSegment.swift */,
+				13D46E572656E12C00B034DB /* Vertex.swift */,
+				13D46E3D2656E09200B034DB /* Background */,
+				13D46E422656E0B500B034DB /* ConvexHull */,
+				13D46E4B2656E0E800B034DB /* DCEL */,
+				13D46E4D2656E0E800B034DB /* Extensions.swift */,
+				13D46E492656E0E800B034DB /* Face.swift */,
+				13D46E4A2656E0E800B034DB /* HalfEdge.swift */,
 				13D46E2C2656DEA900B034DB /* ComputationalGeometryApp.swift */,
 				13D46E2E2656DEA900B034DB /* ContentView.swift */,
 				13D46E302656DEAA00B034DB /* Assets.xcassets */,
@@ -71,6 +110,44 @@
 				13D46E332656DEAA00B034DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13D46E3D2656E09200B034DB /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				13D46E3E2656E09200B034DB /* CartesianGridView.swift */,
+				13D46E3F2656E09200B034DB /* SweeplineView.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		13D46E422656E0B500B034DB /* ConvexHull */ = {
+			isa = PBXGroup;
+			children = (
+				13D46E432656E0B500B034DB /* ConvexHullView.swift */,
+				13D46E442656E0B500B034DB /* ConvexHullViewController.swift */,
+				13D46E452656E0B500B034DB /* ConvexHullModel.swift */,
+			);
+			path = ConvexHull;
+			sourceTree = "<group>";
+		};
+		13D46E4B2656E0E800B034DB /* DCEL */ = {
+			isa = PBXGroup;
+			children = (
+				13D46E4C2656E0E800B034DB /* DCEL.swift */,
+			);
+			path = DCEL;
+			sourceTree = "<group>";
+		};
+		13D46E522656E12C00B034DB /* LineIntersections */ = {
+			isa = PBXGroup;
+			children = (
+				13D46E532656E12C00B034DB /* LineIntersectionsView.swift */,
+				13D46E542656E12C00B034DB /* Event.swift */,
+				13D46E552656E12C00B034DB /* LineIntersectionsViewController.swift */,
+				13D46E562656E12C00B034DB /* LineIntersectionsModel.swift */,
+			);
+			path = LineIntersections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +219,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D46E472656E0B500B034DB /* ConvexHullViewController.swift in Sources */,
+				13D46E5B2656E12C00B034DB /* LineIntersectionsViewController.swift in Sources */,
 				13D46E2F2656DEA900B034DB /* ContentView.swift in Sources */,
+				13D46E412656E09300B034DB /* SweeplineView.swift in Sources */,
+				13D46E592656E12C00B034DB /* LineIntersectionsView.swift in Sources */,
+				13D46E5D2656E12C00B034DB /* Vertex.swift in Sources */,
+				13D46E402656E09300B034DB /* CartesianGridView.swift in Sources */,
+				13D46E4E2656E0E800B034DB /* Face.swift in Sources */,
+				13D46E502656E0E800B034DB /* DCEL.swift in Sources */,
+				13D46E4F2656E0E800B034DB /* HalfEdge.swift in Sources */,
+				13D46E482656E0B500B034DB /* ConvexHullModel.swift in Sources */,
+				13D46E5C2656E12C00B034DB /* LineIntersectionsModel.swift in Sources */,
 				13D46E2D2656DEA900B034DB /* ComputationalGeometryApp.swift in Sources */,
+				13D46E512656E0E800B034DB /* Extensions.swift in Sources */,
+				13D46E462656E0B500B034DB /* ConvexHullView.swift in Sources */,
+				13D46E5A2656E12C00B034DB /* Event.swift in Sources */,
+				13D46E5E2656E12C00B034DB /* LineSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
