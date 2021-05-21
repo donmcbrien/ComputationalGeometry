@@ -12,7 +12,7 @@ import RedBlackTree
 struct ComputationalGeometryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         ContentView()
         }
     }
 }
