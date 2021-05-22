@@ -30,7 +30,7 @@ class LineIntersectionsModel {
 
 extension LineIntersectionsModel {
    func run() {
-      if let next = queue.minimum { handle(next: next) }
+      if let next = queue.last { handle(next: next) }
    }
    
    /// Adds a .intersection event to the queue if the line segments intersect
